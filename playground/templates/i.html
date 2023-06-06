@@ -1,0 +1,35 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="password">Enter password</label>
+        <input id="password" name="password"></input>
+        <button type="submit">Send</button>
+    </form>
+    <p style="color: red">{{message}}</p>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <label for="sequence">Enter sequence:</label>
+        <textarea id="sequence" name="sequence" rows="10" cols="30"></textarea>
+        <!-- <input id="password" name="password"></input> -->
+        <button type="submit">Send</button>
+    </form>
+    <p style="color: red">{{message}}</p>
+    <!-- error message-->
+</body>
+</html>
