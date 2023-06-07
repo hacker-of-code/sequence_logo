@@ -22,5 +22,6 @@ urlpatterns = [
     path('playground/', include('playground.urls')),
     path('PUT/', include('PUT.urls')),
     path('GET/', include('GET.urls')),
+    path('', include('PUT.urls')),
     path('__debug__/', include('debug_toolbar.urls')),
 ]
